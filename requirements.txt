@@ -6,6 +6,6 @@ pandas==1.5.3
 Pillow==9.5.0
 scikit-learn==1.2.2
 ultralytics==8.0.80
-opencv-python-headless==4.5.5.62
+opencv-python==4.5.5.62  # 替换为 opencv-python 而不是 opencv-python-headless
 matplotlib==3.7.1
-altair==4.2.2  # 添加 altair 依赖
+altair==4.2.2
