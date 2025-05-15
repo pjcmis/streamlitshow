@@ -13,6 +13,9 @@ from ultralytics import YOLO
 from streamlit.components.v1 import html
 
 
+import importlib
+importlib.import_module('cv2')
+
 # 定义保存结果的函数
 def save_result(defects, frame, manual=False):
     """保存检测结果"""
